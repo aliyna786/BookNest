@@ -231,7 +231,7 @@ if len(book_search.strip()) >= 3:
             params={
                 "q": f"intitle:{book_search}",
                 "maxResults": 8,
-                "key": GOOGLE_BOOKS_API_KEY
+                "key": GOOGLE_BOOKS_API_KEY,
                 "country": "GB",
             },
             timeout=10
