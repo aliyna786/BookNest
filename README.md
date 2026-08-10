@@ -4,7 +4,7 @@
 
 ## 📸 App Preview
 
-![BookNest App Preview](booknest preview.png)
+![BookNest App Preview](booknest%20preview.png)
 
 BookNest is a web-based application that allows users to organise their books, track their reading progress and view statistics about their reading habits.
 
