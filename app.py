@@ -260,7 +260,9 @@ if len(book_search.strip()) >= 3:
 
     except requests.RequestException as e:
         status_code = e.response.status_code if e.response is not None else "No response"
+        error_details = e.response.text if e.response is not None else str(e)
         st.error(f"Book search failed. Status code: {status_code}")
+        st.code(error_details)
     
 
 st.divider()
