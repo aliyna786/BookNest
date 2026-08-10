@@ -6,7 +6,10 @@ from dotenv import load_dotenv
 import sqlite3
 import altair as alt
 load_dotenv()
-GOOGLE_BOOKS_API_KEY = os.getenv("GOOGLE_BOOKS_API_KEY")
+GOOGLE_BOOKS_API_KEY = st.secrets.get(
+    "GOOGLE_BOOKS_API_KEY",
+    os.getenv("GOOGLE_BOOKS_API_KEY")
+)
 # -------------------------
 # DATABASE
 # -------------------------
