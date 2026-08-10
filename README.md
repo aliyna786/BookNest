@@ -2,6 +2,10 @@
 
 **A personal reading tracker built with Python and Streamlit.**
 
+## 📸 App Preview
+
+![BookNest App Preview](booknest-preview.png)
+
 BookNest is a web-based application that allows users to organise their books, track their reading progress and view statistics about their reading habits.
 
 I developed BookNest as a personal programming project to build my practical skills in Python, databases, APIs and web application development.
